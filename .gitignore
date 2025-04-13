@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Apache Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Apache Airflow
+airflow/logs/
+airflow/*.db
+airflow/*.pid
+airflow/airflow.cfg
+airflow/webserver_config.py
+airflow.db
+
+# Feast
+feast/feature_repo/**/data/
+.feast/
+registry.db
+
+# Data and logs
+data/processed/
+logs/
+*.log
+*.parquet
+*.csv
+*.json
+
+# Redis
+*.rdb
+dump.rdb
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
